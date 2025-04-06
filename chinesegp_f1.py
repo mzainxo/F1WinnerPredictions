@@ -126,7 +126,7 @@ qualifying_2025 = qualifying_2025.sort_values(by="PredictedRaceTimeSeconds")
 
 # Final prediction
 print("\nPREDICTED CHINESE GRAND PRIX 2025 WINNER\n")
-qualifying_2025[["Driver","PredictedRaceTimeSeconds"]]
+print(qualifying_2025[["Driver","PredictedRaceTimeSeconds"]])
 
 print("Gradient Boosting MAE:", mae_gb)
 print("Random Forest MAE:", mae_rf)
